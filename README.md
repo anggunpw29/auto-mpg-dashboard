@@ -7,7 +7,7 @@ Tugas Opsi B / Track 2 - Modul 7 Business Intelligence
 
 ## 📘 Deskripsi Proyek
 Dashboard interaktif ini dibangun menggunakan **Python Panel** dan **HvPlot** untuk menganalisis dataset *Auto MPG*.  
-Aplikasi ini menjawab beberapa pertanyaan analisis utama terkait efisiensi bahan bakar mobil:
+Web ini menjawab beberapa pertanyaan analisis utama terkait efisiensi bahan bakar mobil:
 
 1. Bagaimana distribusi nilai MPG pada seluruh mobil?
 2. Apakah ada perbedaan rata-rata MPG berdasarkan jumlah silinder?
@@ -34,28 +34,10 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-panel serve dashboard_auto_mpg.py --allow-websocket-origin="*" --port=5006 --show
+panel serve dashboard_auto_mpg.py --allow-websocket-origin="*" --port=5013 --show
 ```
 
-Aplikasi akan terbuka di browser: [http://localhost:5006](http://localhost:5006)
-
----
-
-## ☁️ Cara Deploy ke Render
-
-1. Upload repository ini ke GitHub.
-2. Buka [https://render.com](https://render.com) → New → Web Service.
-3. Hubungkan repo GitHub ini.
-4. Build Command:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Start Command:
-   ```bash
-   panel serve dashboard_auto_mpg.py --port $PORT --address 0.0.0.0 --allow-websocket-origin=*
-   ```
-
-Render akan menyediakan URL publik untuk dashboard kamu 🎉
+Aplikasi akan terbuka di browser: [http://localhost:5013](http://localhost:5013)
 
 ---
 
