@@ -37,13 +37,8 @@ pip install -r requirements.txt
 panel serve dashboard_auto_mpg.py --allow-websocket-origin="*" --port=5006 --show
 ```
 
-Aplikasi akan terbuka di browser: [http://localhost:5006](http://localhost:5006)
+Web akan terbuka di browser: [http://localhost:5006](http://localhost:5006)
 
 ---
 
-## 🧾 Lisensi
-MIT License © 2025 Anggun Pangestu Wulandani
-
----
-
-> Dibuat dengan ❤️ menggunakan Panel, HvPlot, dan Python
+> Dibuat dengan menggunakan Panel, HvPlot, dan Python
