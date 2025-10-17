@@ -1,0 +1,8 @@
+pandas>=1.3
+panel>=1.0
+hvplot>=0.8
+holoviews>=1.15
+bokeh>=2.4
+pyviz_comms>=2.0
+param>=1.12
+tabulator>=1.0.0

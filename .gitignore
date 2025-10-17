@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+.venv/
+
+# Panel/Bokeh temporary
+*.bak
+.cache/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
