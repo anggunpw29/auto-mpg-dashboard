@@ -34,10 +34,10 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-panel serve dashboard_auto_mpg.py --allow-websocket-origin="*" --port=5013 --show
+panel serve dashboard_auto_mpg.py --allow-websocket-origin="*" --port=5006 --show
 ```
 
-Aplikasi akan terbuka di browser: [http://localhost:5013](http://localhost:5013)
+Aplikasi akan terbuka di browser: [http://localhost:5006](http://localhost:5006)
 
 ---
 
